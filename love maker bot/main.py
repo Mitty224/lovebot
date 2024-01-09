@@ -37,15 +37,11 @@ async def send_love(message: Message, bot: Bot):
         await asyncio.sleep(0.2)
     await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='❤️️️️️️️')
     await asyncio.sleep(1)
-    await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='be')
+    await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='love')
     await asyncio.sleep(1)
-    await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='be in')
+    await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='love you')
     await asyncio.sleep(1)
-    await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='be in love')
-    await asyncio.sleep(1)
-    await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='be in love with')
-    await asyncio.sleep(1)
-    await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='be in love with me💗')
+    await bot.edit_message_text(chat_id=message.chat.id, message_id=sent.message_id, text='love you💗')
 
 
 async def start():
